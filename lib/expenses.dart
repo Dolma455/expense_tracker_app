@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:uuid/uuid.dart';
+
+final uuid=Uuid();
 
 class Expenses extends StatefulWidget {
   const Expenses({super.key});
